@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgb(109, 80, 0);
+    background: linear-gradient(to bottom, rgb(94, 52, 2) 50%, rgba(255, 166, 0, 1) 76%);
+}
+
+.Cookies {
+    font-family: "Fredericka the Great";
+    font-size: 80px;
+    color: rgb(66, 36, 1);
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+    width: 75%;
+    padding: 15px;
+
+}
+
+.info {
+    margin-left: 30px;
+}
+
+p {
+    color: rgb(202, 140, 5);
+    font-size: 30px;
+}
+
+li {
+    color: rgb(202, 140, 5);
+    font-size: 30px;
+}
+
+li:hover {
+    color: red;
+}
+
+
+@media (min-width: 1500px) {
+    .div {
+        flex-direction: row;
+    }
+
+    img {
+        width: 950px;
+        height: auto;
+        object-fit: contain;
+    }
+}
